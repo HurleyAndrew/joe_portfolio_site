@@ -3,7 +3,7 @@
 }
 .nav__container{
 	display: flex;
-	position: fixed;
+	position: absolute;
 	height: 38px;
 	width: 100vw;
 	margin-top: 16px;
