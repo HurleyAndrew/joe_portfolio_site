@@ -1,0 +1,95 @@
+.item__container{
+	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+
+}
+.reel__container{
+	height: 1400px;
+}
+.item__image{
+	height: 260px;
+	width: 260px;
+	background-color: grey;
+	margin: 8px;
+	background-size: cover;
+}
+.item__image:hover{
+
+animation-direction: normal;
+transform: scale(1.1);
+cursor:pointer;
+
+}
+@keyframes image_scale {
+from{transform: scale(1);}
+to{transform: scale(1.1);}
+}
+
+.image__one{
+	background-image: url("assets/one.jpg");
+}
+.image__two{
+	background-image: url("assets/two.jpg");
+}
+.image__three{
+	background-image: url("assets/three.jpg");
+}
+.image__four{
+	background-image: url("assets/four.jpg");
+}
+.image__five{
+	background-image: url("assets/five.jpg");
+}
+.image__six{
+	background-image: url("assets/six.jpg");
+}
+.image__seven{
+	background-image: url("assets/seven.jpg");
+}
+.image__eight{
+	background-image: url("assets/eight.jpg");
+}
+.image__nine{
+	background-image: url("assets/nine.jpg");
+}
+.image__ten{
+	background-image: url("assets/ten.jpg");
+}
+.image__eleven{
+	background-image: url("assets/eleven.jpg");
+}
+.image__twelve{
+	background-image: url("assets/twelve.jpg");
+}
+input {
+	display: none;
+}
+.item__image:hover{
+	cursor:pointer;
+}
+input:checked + div {
+	z-index: 200;
+	transform: scale(3.1) !important;
+	margin: 0 auto;
+	position: fixed;
+	cursor: pointer;
+	top: 40%;
+	right: 0;
+	bottom: 0;
+	left: 1%;
+	vertical-align: middle;
+	background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.hero_image__container{
+	background-image: url("assets/one.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0px -100px;
+}

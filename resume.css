@@ -1,0 +1,34 @@
+.resume__image{
+	height: 1000px;
+	width: 842px;
+	background-image: url("assets/resume.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-top: 50px;
+	margin-left: 70px;
+}
+.resume__download{
+	height: 25px;
+	width: 150px;
+	background-color: lightpink;
+	text-align: center;
+	line-height: 1.5;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.resume__download:hover{
+	cursor: pointer;
+	background-color: pink;
+}
+.reel__container{
+	height: 1600px;
+}
+.hero_image__container{
+	background-image: url("assets/fifteen.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0px -250px;
+}
+.page__title{
+
+}

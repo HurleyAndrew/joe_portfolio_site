@@ -1,0 +1,25 @@
+.nav__color{
+	background-color: rgba(175, 245, 255, .45);
+}
+.nav__container{
+	display: flex;
+	position: fixed;
+	height: 38px;
+	width: 100vw;
+	margin-top: 16px;
+	justify-content: center;
+	z-index: 100;
+}
+
+.nav__item{
+	font-size: 24px;
+	font-weight: 100;
+	height: 38px;
+	margin-right: 52px;
+	display: block;
+	line-height: 1.6;
+	text-align: center;
+}
+.nav__item:hover{
+	transform: scale(1.2);
+}

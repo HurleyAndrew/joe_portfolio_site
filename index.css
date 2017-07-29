@@ -1,0 +1,50 @@
+.hero_image__container{
+	background-color: pink;
+	background-image: url("assets/home_banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0px;
+	width: 100vw;
+	height: 400px;
+}
+.hero__name{
+	position: relative;
+	top: 128px;
+	text-align: center;
+	font-size: 72px;
+	font-weight: 400;
+	color: #fafafa;
+}
+.hero__titles{
+	position: relative;
+	top: 196px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 400;
+	color: #fafafa;
+}
+.hero__info{
+	position: relative;
+	top: 231px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fafafa;
+}
+.video__holder{
+	height: 360px;
+	width: 640px;
+	margin: 0 auto;
+	background-color: grey;
+	top: 121px;
+	position: relative;
+	margin-top: 64px;
+}
+.video__line{
+	position: relative;
+    padding: 2px;
+    width: 50%;
+    background-color: #7EA0E2;
+    margin: 0 auto;
+    top: 155px;
+}
