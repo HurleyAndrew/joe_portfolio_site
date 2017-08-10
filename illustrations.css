@@ -84,6 +84,7 @@ input:checked + div {
 	background-color: transparent;
     background-size: contain;
     background-repeat: no-repeat;
+	
 
 }
 
@@ -93,3 +94,14 @@ input:checked + div {
 	background-size: cover;
 	background-position: 0px -100px;
 }
+/*.image_modal__container{
+	height: 75%;
+    width: 75%;
+    position: fixed;
+	margin: 10% 12%;
+	z-index: 10;
+	background-image: url(assets/one.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+
+}*/

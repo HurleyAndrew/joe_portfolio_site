@@ -1,0 +1,7 @@
+.hero_image__container{
+	background-image: url("assets/animation_banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0px -250px;
+	transform: scale(1);
+}
