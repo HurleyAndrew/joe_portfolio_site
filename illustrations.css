@@ -17,17 +17,24 @@
 	background-size: cover;
 }
 .item__image:hover{
-
-animation-direction: normal;
-transform: scale(1.1);
-cursor:pointer;
-
+	animation-direction: normal;
+	transform: scale(1.1);
+	cursor:pointer;
 }
 @keyframes image_scale {
-from{transform: scale(1);}
-to{transform: scale(1.1);}
+	from{transform: scale(1);}
+	to{transform: scale(1.1);}
 }
-
+.darkenbg{
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(10, 10, 10, .5);
+	position: absolute;
+	position: fixed;
+	margin: 0 auto;
+	top: 0;
+	visibility: hidden;
+}
 .image__one{
 	background-image: url("assets/one.jpg");
 }
@@ -70,7 +77,10 @@ input {
 .item__image:hover{
 	cursor:pointer;
 }
-input:checked + div {
+input:checked + div.darkenbg{
+	visibility: visible;
+}
+input:checked + div{
 	z-index: 200;
 	transform: scale(3.1) !important;
 	margin: 0 auto;
@@ -82,9 +92,9 @@ input:checked + div {
 	left: 1%;
 	vertical-align: middle;
 	background-color: transparent;
-    background-size: contain;
-    background-repeat: no-repeat;
-	
+	background-size: contain;
+	background-repeat: no-repeat;
+
 
 }
 
@@ -95,13 +105,26 @@ input:checked + div {
 	background-position: 0px -100px;
 }
 /*.image_modal__container{
-	height: 75%;
-    width: 75%;
-    position: fixed;
-	margin: 10% 12%;
-	z-index: 10;
-	background-image: url(assets/one.jpg);
-	background-size: contain;
-	background-repeat: no-repeat;
+height: 75%;
+width: 75%;
+position: fixed;
+margin: 10% 12%;
+z-index: 10;
+background-image: url(assets/one.jpg);
+background-size: contain;
+background-repeat: no-repeat;
 
 }*/
+.reel__container_index{
+	background-color: #A5BAB9;
+	width: 100vw;
+	height: 1400px;
+	position: absolute;
+	padding-bottom: 100px;
+	padding-top: 240px;
+	z-index: -1;
+	top: 0;
+}
+.title__container{
+	background-color: #A5BAB9;
+}

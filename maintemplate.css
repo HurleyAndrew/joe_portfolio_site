@@ -47,7 +47,7 @@ body{
 
 .title__container{
 	margin: 0 auto;
-	padding-top: 176px;
+	padding-top: 136px;
 }
 .line__top{
 	background-color: #fafafa;
@@ -64,6 +64,7 @@ body{
 .page__title{
 	font-size: 56px;
 	text-align: center;
+
 }
 .demoreel_line__color{
 	border-bottom: solid #C2A3A3 4px;

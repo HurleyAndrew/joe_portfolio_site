@@ -34,15 +34,33 @@
 	background-repeat: no-repeat;
 	clear: both;
 }
-.hero_image__container{
+/*.hero_image__container{
 	background-image: url("assets/two.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0px -250px;
-}
+}*/
 .demoreel_line__color{
 	border-bottom: solid #C2A3A3 4px;
 }
 .section__title {
     padding-top: 62px;
+}
+.reel__container_index{
+	background-color: #A5BAB9;
+	width: 100vw;
+	height: 1400px;
+	position: absolute;
+	padding-bottom: 100px;
+	padding-top: 240px;
+	z-index: -1;
+	top: 0;
+}
+.wesblock{
+	margin-left: 40px;
+	margin-top: 140px;
+	background-image: url(assets/wesblock_icon.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
 }
