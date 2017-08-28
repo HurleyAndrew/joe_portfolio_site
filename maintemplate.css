@@ -48,6 +48,7 @@ body{
 .title__container{
 	margin: 0 auto;
 	padding-top: 136px;
+	width: 100vw;
 }
 .line__top{
 	background-color: #fafafa;

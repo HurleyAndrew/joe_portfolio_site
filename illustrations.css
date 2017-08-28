@@ -7,7 +7,7 @@
 
 }
 .reel__container{
-	height: 1400px;
+	height: 1600px;
 }
 .item__image{
 	height: 260px;
@@ -25,16 +25,16 @@
 	from{transform: scale(1);}
 	to{transform: scale(1.1);}
 }
-.darkenbg{
-	height: 100vh;
-	width: 100vw;
-	background-color: rgba(10, 10, 10, .5);
-	position: absolute;
-	position: fixed;
-	margin: 0 auto;
-	top: 0;
-	visibility: hidden;
-}
+/*.darkenbg{
+height: 100vh;
+width: 100vw;
+background-color: rgba(10, 10, 10, .5);
+position: absolute;
+position: fixed;
+margin: 0 auto;
+top: 0;
+visibility: hidden;
+}*/
 .image__one{
 	background-image: url("assets/one.jpg");
 }
@@ -71,32 +71,35 @@
 .image__twelve{
 	background-image: url("assets/twelve.jpg");
 }
+.image__seventeen{
+	background-image: url("assets/seventeen.jpg");
+}
 input {
 	display: none;
 }
 .item__image:hover{
 	cursor:pointer;
 }
-input:checked + div.darkenbg{
-	visibility: visible;
+/*input:checked + div.darkenbg{
+visibility: visible;
 }
 input:checked + div{
-	z-index: 200;
-	transform: scale(3.1) !important;
-	margin: 0 auto;
-	position: fixed;
-	cursor: pointer;
-	top: 40%;
-	right: 0;
-	bottom: 0;
-	left: 1%;
-	vertical-align: middle;
-	background-color: transparent;
-	background-size: contain;
-	background-repeat: no-repeat;
+z-index: 200;
+transform: scale(3.1) !important;
+margin: 0 auto;
+position: fixed;
+cursor: pointer;
+top: 40%;
+right: 0;
+bottom: 0;
+left: 1%;
+vertical-align: middle;
+background-color: transparent;
+background-size: contain;
+background-repeat: no-repeat;
 
 
-}
+}*/
 
 .hero_image__container{
 	background-image: url("assets/one.jpg");
@@ -127,4 +130,62 @@ background-repeat: no-repeat;
 }
 .title__container{
 	background-color: #A5BAB9;
+}
+.modal_container{
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	background: rgba(0, 0, 0, 0.8);
+	z-index: 101;
+	text-align: center;
+}
+
+.modal_image__container{
+	height: 600px;
+	background: black;
+	margin:0 auto;
+	transform: translateY(-50%);
+	top: 50%;
+	position: relative;
+	background-image: url(assets/one.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+
+}
+.modal_imgsrc{
+	max-width: 100vw;
+	max-height: 100vh;
+	position: relative;
+	padding: 20px;
+}
+.modal_close{
+	right: 10px;
+	top: 0;
+	position: absolute;
+	font-size: 225%;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 20px;
+}
+
+.imgsrc_container{
+	position: relative;
+	max-width: 100vw;
+	max-height: 100vh;
+	display: inline-block;
+	transform: translateY(-50%);
+	top: 50%;
+
+}
+.arrow{
+	display: inline-block;
+	color: white;
+	font-size: 80px;
+	position: relative;
+	vertical-align: top;
+	transform: translatey(-50%);
+	top: 50%;
+}
+.arrow:hover{
+	cursor: pointer;
 }
