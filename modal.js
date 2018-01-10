@@ -28,10 +28,10 @@ function setNewImage(increment) {
 	var next = current + increment;
 
 	if(next < 1) {
-		next = 13;
+		next = 14;
 	}
 
-	if(next > 13) {
+	if(next > 14) {
 		next = 0;
 	}
 

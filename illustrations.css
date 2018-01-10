@@ -74,6 +74,9 @@ visibility: hidden;
 .image__seventeen{
 	background-image: url("assets/seventeen.jpg");
 }
+.image__eightteen{
+	background-image: url("assets/eightteen.jpg");
+}
 input {
 	display: none;
 }

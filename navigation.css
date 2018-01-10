@@ -24,3 +24,8 @@
 .nav__item:hover{
 	transform: scale(1.2);
 }
+.noHover:hover{
+
+	transform: scale(1);
+
+}

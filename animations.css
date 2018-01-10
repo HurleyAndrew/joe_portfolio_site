@@ -13,6 +13,7 @@
     padding-top: 182px;
     z-index: -1;
     top: 0;
+
 }
 
 div.subsection {
@@ -41,8 +42,13 @@ div.video-list {
 
 div.video-list__item {
     text-align: center;
+	display: flex;
+	justify-content: center;
 }
 
 div.video-list__item:not(:first-child) {
     margin-top: 40px;
+}
+iframe{
+	margin:15px;
 }
